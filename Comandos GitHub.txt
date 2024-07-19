@@ -1,0 +1,35 @@
+PRIMEIRA VEZ USANDO GITHUB
+
+COMANDOS PARA CONFIGURAR PELA PRIMEIRA VEZ
+
+git init
+git config --global user.name "seu nome"
+git config --global user.email "seu email"
+
+PARA CONFIRMAR
+
+git config --global user.name 
+git config --global user.email
+
+COMANDOS INICIAIS
+ 
+git init 
+git add README.md 
+git commit -m "primeiro commit" 
+git branch -M main 
+git remote add origin https://github.com/MaduAraujo/Primeiros-passos-com-GitHub.git
+git push -u origin main
+
+AGORA QUE ESTÁ COM O REPOSITORIO REMOTO, SÓ PRECISAMOS SEGUIR A TRIADE
+
+git add .
+git commit -m "mensagem"
+git push
+
+PARA SELECIONAR UM REPOSITÓRIO EXISTENTE
+
+git clone
+
+PARA ATUALIZAR 
+
+git pull
